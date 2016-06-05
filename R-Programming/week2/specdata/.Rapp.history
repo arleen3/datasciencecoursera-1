@@ -1,0 +1,24 @@
+install.packages("KernSmooth")
+library(KernSmooth)
+install.packages("swirl")
+packageVersion("swirl")
+library(swirl)
+install_from_swirl("R Programming")
+(TRUE != FALSE) == !(6 == 7)
+TRUE && 62 < 62 && 44 >= 44
+99.99 > 100 || 45 < 7.3 || 4 != 4.0
+TRUE && FALSE || 9 >= 4 && 3 < 6
+!(8 > 4) ||  5 == 5.0 && 7.8 >= 7.79
+6 >= -9 && !(6 > 7) && !(!TRUE)
+FALSE || TRUE && 6 != 4 || 9 > 4
+FALSE && 6 >= 6 || 7 >= 8 || 50 <= 49.5
+isTRUE(3)
+!isTRUE(4 < 3)
+xor(identical(xor, 'xor'), 7 == 7.0)
+xor(!!TRUE, !!FALSE)
+xor(4 >= 9, 8 != 8.0)
+ints <- sample(10)
+any(ints == 10)
+getwd()
+pollutantmean <- function(directory, pollutant, id = 1:332){}
+pollutantmean <- function(directory, pollutant, id = 1:332){
